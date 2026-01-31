@@ -1,0 +1,177 @@
+{
+  "nav": {
+    "home": "Home",
+    "benefits": "Benefits",
+    "about": "About MOFIC",
+    "apply": "Apply Now",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "New Opportunities for Publishers",
+    "subtitle": "With MOFIC, even backlist titles shine",
+    "description": "Breathe new life into undiscovered works and create stable revenue streams.",
+    "cta": "Apply for Partnership",
+    "learnMore": "Learn More"
+  },
+  "stats": {
+    "partners": "Partner Publishers",
+    "works": "Distributed Works",
+    "countries": "Countries Served",
+    "growth": "Annual Growth"
+  },
+  "benefits": {
+    "title": "Why Partner with MOFIC",
+    "subtitle": "Exclusive benefits for publishers",
+    "revenue": {
+      "title": "Stable Revenue Generation",
+      "description": "Generate consistent sales even from backlist titles. Experience a balanced revenue structure that doesn't rely solely on bestsellers."
+    },
+    "promotion": {
+      "title": "Exceptional Promotion Support",
+      "description": "We cover the cost of free content and pay publishers 100% settlement. Don't miss out on reader acquisition or revenue."
+    },
+    "discovery": {
+      "title": "Fair Content Exposure",
+      "description": "Our recommendation system doesn't favor only popular titles—every work gets a chance to be discovered by readers."
+    },
+    "global": {
+      "title": "Global Distribution",
+      "description": "Beyond Korea to Japan and worldwide. The ideal partner for international market expansion."
+    },
+    "guarantee": {
+      "title": "Monthly Advance Guarantee",
+      "description": "Guaranteed monthly advances for publishers with 100+ registered titles. Start without risk."
+    },
+    "support": {
+      "title": "Dedicated Registration Support",
+      "description": "Our team handles everything from content registration to management. Focus on what you do best—great content."
+    }
+  },
+  "how": {
+    "title": "How Is This Possible?",
+    "subtitle": "MOFIC's differentiated system",
+    "step1": {
+      "title": "Free Content Promotion",
+      "description": "MOFIC settles with publishers even for content readers consume for free."
+    },
+    "step2": {
+      "title": "Balanced Recommendation Algorithm",
+      "description": "Not just new releases and bestsellers—hidden gems are recommended to readers too."
+    },
+    "step3": {
+      "title": "YouTube-style Content Experience",
+      "description": "A light discovery experience that increases reader engagement and time spent."
+    }
+  },
+  "testimonials": {
+    "title": "What Our Partners Say",
+    "quote1": "I was amazed that backlist titles that barely sold on other platforms are generating steady revenue on MOFIC.",
+    "author1": "Publisher A Representative",
+    "quote2": "This is the first platform that settles even for free promotion content. I felt a true partnership.",
+    "author2": "Publisher B CEO"
+  },
+  "pricing": {
+    "title": "Partnership Plans",
+    "subtitle": "Start without burden",
+    "pilot": {
+      "title": "Pilot",
+      "description": "Test the waters first",
+      "feature1": "Register 10+ titles",
+      "feature2": "3-month trial period",
+      "feature3": "Free content registration support",
+      "feature4": "Real-time analytics",
+      "cta": "Apply for Pilot"
+    },
+    "standard": {
+      "title": "Standard",
+      "description": "Full partnership",
+      "price": "100+ titles",
+      "monthly": "¥100,000/month advance",
+      "feature1": "Register 100+ titles",
+      "feature2": "¥100,000 monthly advance guaranteed",
+      "feature3": "Dedicated account manager",
+      "feature4": "Priority promotion participation",
+      "cta": "Apply Now"
+    },
+    "premium": {
+      "title": "Premium",
+      "description": "For major publishers",
+      "price": "1,000+ titles",
+      "monthly": "¥200,000+/month advance",
+      "feature1": "Register 1,000+ titles",
+      "feature2": "¥200,000+ monthly advance",
+      "feature3": "Custom promotion planning",
+      "feature4": "Priority global expansion support",
+      "cta": "Contact Us"
+    },
+    "note": "* Contract can be terminated anytime with one month's notice"
+  },
+  "about": {
+    "title": "About MOFIC",
+    "description1": "We are a team of people who love stories and have walked alongside them.",
+    "description2": "MOFIC was born to support a sustainable creative environment in the publishing industry.",
+    "vision": "Our vision is to provide a YouTube-like experience for discovering and enjoying novels and comics while delivering sustainable value to creators and publishers.",
+    "history": {
+      "title": "Our Journey",
+      "item1": "Korea beta service launch",
+      "item2": "Official launch, partnerships with major platforms",
+      "item3": "Japan subsidiary establishment and service launch"
+    }
+  },
+  "contact": {
+    "title": "Apply for Partnership",
+    "subtitle": "Start a new chapter of growth with MOFIC",
+    "form": {
+      "company": "Company Name",
+      "companyPlaceholder": "Enter your company name",
+      "name": "Contact Person",
+      "namePlaceholder": "Enter your name",
+      "email": "Email",
+      "emailPlaceholder": "business@example.com",
+      "phone": "Phone Number",
+      "phonePlaceholder": "+1-000-000-0000",
+      "works": "Number of Titles",
+      "worksPlaceholder": "Approximate number of titles",
+      "genre": "Main Genre",
+      "genreOptions": {
+        "novel": "Novel/Web Novel",
+        "comic": "Comic/Webtoon",
+        "general": "General Books",
+        "mixed": "Mixed"
+      },
+      "message": "Additional Inquiries",
+      "messagePlaceholder": "Feel free to write any questions or requests",
+      "submit": "Submit Application",
+      "submitting": "Submitting...",
+      "success": "Application submitted! Our team will contact you shortly.",
+      "privacy": "Your information will only be used for partnership consultation and is protected under our privacy policy."
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "q1": "Can I register titles already distributed on other platforms?",
+    "a1": "Yes, you can. With a non-exclusive agreement, you can maintain existing distribution channels while also registering on MOFIC.",
+    "q2": "How does the content registration process work?",
+    "a2": "Our team handles the registration process directly. Publishers only need to provide files and metadata.",
+    "q3": "How does settlement work?",
+    "a3": "We provide transparent monthly settlement reports and a real-time statistics dashboard.",
+    "q4": "What are the contract terms and termination conditions?",
+    "a4": "There is no minimum contract period, and you can terminate the contract anytime with one month's notice."
+  },
+  "footer": {
+    "company": "MOFIC",
+    "description": "A content platform for sustainable creative environments",
+    "links": "Quick Links",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contact": "Contact",
+    "email": "partner@mofic.com",
+    "copyright": "© 2024 MOFIC. All rights reserved."
+  },
+  "cta": {
+    "title": "Get Started Today",
+    "description": "New life for backlist titles, stable revenue for publishers",
+    "button": "Apply for Partnership"
+  }
+}
