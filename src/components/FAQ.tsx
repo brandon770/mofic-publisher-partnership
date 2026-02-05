@@ -12,6 +12,8 @@ export default function FAQ() {
     { q: 'q2', a: 'a2' },
     { q: 'q3', a: 'a3' },
     { q: 'q4', a: 'a4' },
+    { q: 'q5', a: 'a5' },
+    { q: 'q6', a: 'a6' },
   ];
 
   return (

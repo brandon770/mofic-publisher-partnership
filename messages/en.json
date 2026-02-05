@@ -14,108 +14,103 @@
     "learnMore": "Learn More"
   },
   "stats": {
-    "partners": "Partner Publishers",
-    "works": "Distributed Works",
-    "countries": "Countries Served",
-    "growth": "Annual Growth"
+    "stat1": { "value": "2+ Years", "label": "Stable Operation" },
+    "stat2": { "value": "15K", "label": "DAU" },
+    "stat3": { "value": "4,000+", "label": "Japan Distributed Works" },
+    "stat4": { "value": "¥1B+", "label": "Additional Investment Confirmed" }
   },
   "benefits": {
     "title": "Why Partner with MOFIC",
     "subtitle": "Exclusive benefits for publishers",
     "revenue": {
-      "title": "Stable Revenue Generation",
-      "description": "Generate consistent sales even from backlist titles. Experience a balanced revenue structure that doesn't rely solely on bestsellers."
+      "title": "Backlist Sales Boost",
+      "description": "10x+ increase in backlist sales. Experience a balanced revenue structure that doesn't rely solely on bestsellers."
     },
     "promotion": {
-      "title": "Exceptional Promotion Support",
-      "description": "We cover the cost of free content and pay publishers 100% settlement. Don't miss out on reader acquisition or revenue."
+      "title": "Powerful Promotion",
+      "description": "150 credits/month covered by MOFIC. Free content is 100% settled with publishers."
     },
     "discovery": {
       "title": "Fair Content Exposure",
       "description": "Our recommendation system doesn't favor only popular titles—every work gets a chance to be discovered by readers."
     },
     "global": {
-      "title": "Global Distribution",
-      "description": "Beyond Korea to Japan and worldwide. The ideal partner for international market expansion."
+      "title": "Japan Expansion Complete",
+      "description": "QuarterFull Japan Inc. established. Beyond Korea to Japan and worldwide."
     },
     "guarantee": {
-      "title": "Monthly Advance Guarantee",
-      "description": "Guaranteed monthly advances for publishers with 100+ registered titles. Start without risk."
+      "title": "Risk Minimization",
+      "description": "MG terminable anytime with one month's notice. Guaranteed monthly advances for publishers with 100+ registered titles."
     },
     "support": {
       "title": "Dedicated Registration Support",
-      "description": "Our team handles everything from content registration to management. Focus on what you do best—great content."
+      "description": "All registration work handled by MOFIC. Focus on what you do best—great content."
     }
   },
   "how": {
-    "title": "How Is This Possible?",
-    "subtitle": "MOFIC's differentiated system",
+    "title": "MOFIC's Two Engines",
+    "subtitle": "Reader acquisition and revenue generation system",
     "step1": {
-      "title": "Free Content Promotion",
-      "description": "MOFIC settles with publishers even for content readers consume for free."
+      "title": "Personalized Recommendations",
+      "description": "Recommendation system tailored to individual reader preferences, not biased toward popular titles"
     },
     "step2": {
-      "title": "Balanced Recommendation Algorithm",
-      "description": "Not just new releases and bestsellers—hidden gems are recommended to readers too."
+      "title": "MOFIC-Funded Credits",
+      "description": "150 free credits monthly for readers. Free credits are also 100% settled with publishers"
     },
     "step3": {
       "title": "YouTube-style Content Experience",
-      "description": "A light discovery experience that increases reader engagement and time spent."
+      "description": "A light discovery experience that maximizes engagement time and return visits"
     }
   },
   "testimonials": {
     "title": "What Our Partners Say",
-    "quote1": "I was amazed that backlist titles that barely sold on other platforms are generating steady revenue on MOFIC.",
+    "quote1": "Works that previously had no sales are now generating stable revenue.",
     "author1": "Publisher A Representative",
-    "quote2": "This is the first platform that settles even for free promotion content. I felt a true partnership.",
-    "author2": "Publisher B CEO"
+    "quote2": "The powerful MOFIC promotion has increased user traffic, which has been a great help.",
+    "author2": "Publisher B CEO",
+    "quote3": "It's great that users discover our content naturally without advertising.",
+    "author3": "Publisher C Representative"
   },
   "pricing": {
-    "title": "Partnership Plans",
-    "subtitle": "Start without burden",
+    "title": "Contract Types",
+    "subtitle": "Three flexible contract options to fit your needs",
+    "highlight": "Terminate anytime with 1 month's notice",
+    "highlightSub": "No minimum contract period · No penalties · Zero risk to get started",
     "pilot": {
       "title": "Pilot",
-      "description": "Test the waters first",
-      "feature1": "Register 10+ titles",
-      "feature2": "3-month trial period",
-      "feature3": "Free content registration support",
-      "feature4": "Real-time analytics",
-      "cta": "Apply for Pilot"
+      "condition": "10+ titles",
+      "description": "For publishers who want to test first. A one-time supply format to experience MOFIC's effectiveness.",
+      "detail1": "3-month trial period",
+      "detail2": "Real-time analytics provided"
     },
     "standard": {
       "title": "Standard",
-      "description": "Full partnership",
-      "price": "100+ titles",
-      "monthly": "¥100,000/month advance",
-      "feature1": "Register 100+ titles",
-      "feature2": "¥100,000 monthly advance guaranteed",
-      "feature3": "Dedicated account manager",
-      "feature4": "Priority promotion participation",
-      "cta": "Apply Now"
+      "condition": "100+ titles",
+      "description": "Full partnership. Secure stable revenue with ¥100,000 monthly MG (Minimum Guarantee).",
+      "detail1": "¥100,000 monthly MG guaranteed",
+      "detail2": "Dedicated account manager"
     },
     "premium": {
       "title": "Premium",
-      "description": "For major publishers",
-      "price": "1,000+ titles",
-      "monthly": "¥200,000+/month advance",
-      "feature1": "Register 1,000+ titles",
-      "feature2": "¥200,000+ monthly advance",
-      "feature3": "Custom promotion planning",
-      "feature4": "Priority global expansion support",
-      "cta": "Contact Us"
+      "condition": "1,000+ titles",
+      "description": "Special contract for major publishers. ¥200,000+ monthly MG with customized support.",
+      "detail1": "¥200,000+ monthly MG",
+      "detail2": "Custom promotion planning"
     },
-    "note": "* Contract can be terminated anytime with one month's notice"
+    "note": "* All registration work is handled by MOFIC for all contract types."
   },
   "about": {
     "title": "About MOFIC",
+    "tagline": "A platform supporting sustainable creative environments",
     "description1": "We are a team of people who love stories and have walked alongside them.",
     "description2": "MOFIC was born to support a sustainable creative environment in the publishing industry.",
     "vision": "Our vision is to provide a YouTube-like experience for discovering and enjoying novels and comics while delivering sustainable value to creators and publishers.",
     "history": {
       "title": "Our Journey",
       "item1": "Korea beta service launch",
-      "item2": "Official launch, partnerships with major platforms",
-      "item3": "Japan subsidiary establishment and service launch"
+      "item2": "Official launch, partnerships with major platforms (Kakao, Naver, RIDI, Munpia, ONE store)",
+      "item3": "Japan subsidiary 'QuarterFull Japan Inc.' establishment and service launch"
     }
   },
   "contact": {
@@ -154,9 +149,13 @@
     "q2": "How does the content registration process work?",
     "a2": "Our team handles the registration process directly. Publishers only need to provide files and metadata.",
     "q3": "How does settlement work?",
-    "a3": "We provide transparent monthly settlement reports and a real-time statistics dashboard.",
+    "a3": "Choose from 3 settlement methods: (1) Based on pages/characters read, (2) Revenue share rate (60%), (3) Kindle Global Fund method",
     "q4": "What are the contract terms and termination conditions?",
-    "a4": "There is no minimum contract period, and you can terminate the contract anytime with one month's notice."
+    "a4": "There is no minimum contract period, and you can terminate the contract anytime with one month's notice.",
+    "q5": "What is MG?",
+    "a5": "MG (Minimum Guarantee) is the minimum guaranteed amount. We guarantee ¥100,000/month for 100+ titles and ¥200,000/month for 1,000+ titles.",
+    "q6": "Are free promotion credits also settled?",
+    "a6": "Yes, free credits provided to readers by MOFIC are also 100% settled with publishers under the same terms as regular purchases."
   },
   "footer": {
     "company": "MOFIC",

@@ -56,20 +56,20 @@ export default function Hero() {
           {/* Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
             <div className="text-center">
-              <div className="text-3xl sm:text-4xl font-bold text-violet-600 mb-1">200+</div>
-              <div className="text-gray-500 text-sm">{stats('partners')}</div>
+              <div className="text-3xl sm:text-4xl font-bold text-violet-600 mb-1">{stats('stat1.value')}</div>
+              <div className="text-gray-500 text-sm">{stats('stat1.label')}</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl sm:text-4xl font-bold text-violet-600 mb-1">10,000+</div>
-              <div className="text-gray-500 text-sm">{stats('works')}</div>
+              <div className="text-3xl sm:text-4xl font-bold text-violet-600 mb-1">{stats('stat2.value')}</div>
+              <div className="text-gray-500 text-sm">{stats('stat2.label')}</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl sm:text-4xl font-bold text-violet-600 mb-1">3</div>
-              <div className="text-gray-500 text-sm">{stats('countries')}</div>
+              <div className="text-3xl sm:text-4xl font-bold text-violet-600 mb-1">{stats('stat3.value')}</div>
+              <div className="text-gray-500 text-sm">{stats('stat3.label')}</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl sm:text-4xl font-bold text-violet-600 mb-1">300%</div>
-              <div className="text-gray-500 text-sm">{stats('growth')}</div>
+              <div className="text-3xl sm:text-4xl font-bold text-violet-600 mb-1">{stats('stat4.value')}</div>
+              <div className="text-gray-500 text-sm">{stats('stat4.label')}</div>
             </div>
           </div>
         </div>
