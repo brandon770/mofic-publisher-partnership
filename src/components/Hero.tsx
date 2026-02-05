@@ -1,10 +1,11 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 
 export default function Hero() {
   const t = useTranslations('hero');
   const stats = useTranslations('stats');
+  const locale = useLocale();
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-violet-50 via-white to-indigo-50">
@@ -54,23 +55,27 @@ export default function Hero() {
           </div>
 
           {/* Stats */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
+          <div className={`grid gap-8 max-w-4xl mx-auto ${locale === 'ko' ? 'grid-cols-1 max-w-xs' : 'grid-cols-2 md:grid-cols-4'}`}>
             <div className="text-center">
               <div className="text-3xl sm:text-4xl font-bold text-violet-600 mb-1">{stats('stat1.value')}</div>
               <div className="text-gray-500 text-sm">{stats('stat1.label')}</div>
             </div>
-            <div className="text-center">
-              <div className="text-3xl sm:text-4xl font-bold text-violet-600 mb-1">{stats('stat2.value')}</div>
-              <div className="text-gray-500 text-sm">{stats('stat2.label')}</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl sm:text-4xl font-bold text-violet-600 mb-1">{stats('stat3.value')}</div>
-              <div className="text-gray-500 text-sm">{stats('stat3.label')}</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl sm:text-4xl font-bold text-violet-600 mb-1">{stats('stat4.value')}</div>
-              <div className="text-gray-500 text-sm">{stats('stat4.label')}</div>
-            </div>
+            {locale !== 'ko' && (
+              <>
+                <div className="text-center">
+                  <div className="text-3xl sm:text-4xl font-bold text-violet-600 mb-1">{stats('stat2.value')}</div>
+                  <div className="text-gray-500 text-sm">{stats('stat2.label')}</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-3xl sm:text-4xl font-bold text-violet-600 mb-1">{stats('stat3.value')}</div>
+                  <div className="text-gray-500 text-sm">{stats('stat3.label')}</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-3xl sm:text-4xl font-bold text-violet-600 mb-1">{stats('stat4.value')}</div>
+                  <div className="text-gray-500 text-sm">{stats('stat4.label')}</div>
+                </div>
+              </>
+            )}
           </div>
         </div>
       </div>
