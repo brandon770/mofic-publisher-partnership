@@ -85,7 +85,7 @@ export default function Pricing() {
         </p>
 
         {/* Note */}
-        <p className="text-center text-gray-400 text-xs mt-4">
+        <p className="text-center text-gray-500 text-sm mt-4">
           {t('note')}
         </p>
       </div>
