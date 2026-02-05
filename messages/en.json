@@ -74,31 +74,19 @@
   },
   "pricing": {
     "title": "Contract Types",
-    "subtitle": "Three flexible contract options to fit your needs",
+    "subtitle": "Flexible contract options to fit your needs",
     "highlight": "Terminate anytime with 1 month's notice",
     "highlightSub": "No minimum contract period · No penalties · Zero risk to get started",
-    "pilot": {
-      "title": "Pilot",
-      "condition": "10+ titles",
-      "description": "For publishers who want to test first. A one-time supply format to experience MOFIC's effectiveness.",
-      "detail1": "3-month trial period",
-      "detail2": "Real-time analytics provided"
-    },
     "standard": {
-      "title": "Standard",
       "condition": "100+ titles",
-      "description": "Full partnership. Secure stable revenue with ¥100,000 monthly MG (Minimum Guarantee).",
-      "detail1": "¥100,000 monthly MG guaranteed",
-      "detail2": "Dedicated account manager"
+      "description": "Secure stable revenue with ¥100,000 monthly MG (Minimum Guarantee). Dedicated account manager included."
     },
     "premium": {
-      "title": "Premium",
       "condition": "1,000+ titles",
-      "description": "Special contract for major publishers. ¥200,000+ monthly MG with customized support.",
-      "detail1": "¥200,000+ monthly MG",
-      "detail2": "Custom promotion planning"
+      "description": "¥200,000+ monthly MG with customized promotion planning."
     },
-    "note": "* All registration work is handled by MOFIC for all contract types."
+    "pilotNote": "* You can also start with a pilot contract from 10+ titles.",
+    "note": "All registration work is handled by MOFIC."
   },
   "about": {
     "title": "About MOFIC",

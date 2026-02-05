@@ -7,14 +7,6 @@ export default function Pricing() {
 
   const contractTypes = [
     {
-      key: 'pilot',
-      icon: (
-        <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
-        </svg>
-      ),
-    },
-    {
       key: 'standard',
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -60,50 +52,40 @@ export default function Pricing() {
           </div>
         </div>
 
-        {/* Contract types */}
-        <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+        {/* Contract types - 2 cards */}
+        <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
           {contractTypes.map((type) => (
             <div
               key={type.key}
               className="bg-white rounded-2xl p-6 border border-gray-200 hover:border-violet-300 hover:shadow-lg transition-all"
             >
-              {/* Icon and title */}
+              {/* Icon and condition */}
               <div className="flex items-center gap-4 mb-4">
                 <div className="w-14 h-14 bg-violet-100 rounded-xl flex items-center justify-center text-violet-600">
                   {type.icon}
                 </div>
                 <div>
-                  <h3 className="text-lg font-bold text-gray-900">
-                    {t(`${type.key}.title`)}
-                  </h3>
-                  <p className="text-sm text-violet-600 font-medium">
+                  <p className="text-xl font-bold text-violet-600">
                     {t(`${type.key}.condition`)}
                   </p>
                 </div>
               </div>
 
               {/* Description */}
-              <p className="text-gray-600 mb-4 leading-relaxed">
+              <p className="text-gray-600 leading-relaxed">
                 {t(`${type.key}.description`)}
               </p>
-
-              {/* Details list */}
-              <ul className="space-y-2 text-sm text-gray-500">
-                <li className="flex items-center gap-2">
-                  <span className="w-1.5 h-1.5 bg-violet-400 rounded-full"></span>
-                  {t(`${type.key}.detail1`)}
-                </li>
-                <li className="flex items-center gap-2">
-                  <span className="w-1.5 h-1.5 bg-violet-400 rounded-full"></span>
-                  {t(`${type.key}.detail2`)}
-                </li>
-              </ul>
             </div>
           ))}
         </div>
 
+        {/* Pilot note */}
+        <p className="text-center text-gray-500 text-sm mt-8">
+          {t('pilotNote')}
+        </p>
+
         {/* Note */}
-        <p className="text-center text-gray-500 text-sm mt-10">
+        <p className="text-center text-gray-400 text-xs mt-4">
           {t('note')}
         </p>
       </div>
