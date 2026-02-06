@@ -29,7 +29,7 @@
     },
     "promotion": {
       "title": "Powerful Promotion",
-      "description": "150 credits/month covered by MOFIC. Free content is 100% settled with publishers."
+      "description": "150 novel chapters or 1 manga volume worth of content monthly, covered by MOFIC. Free content is 100% settled with publishers."
     },
     "discovery": {
       "title": "Fair Content Exposure",
@@ -57,7 +57,7 @@
     },
     "step2": {
       "title": "MOFIC-Funded Credits",
-      "description": "150 free credits monthly for readers. Free credits are also 100% settled with publishers"
+      "description": "150 novel chapters or 1 manga volume worth of free content monthly for readers. Free content is also 100% settled with publishers"
     },
     "step3": {
       "title": "YouTube-style Content Experience",
@@ -161,27 +161,13 @@
       "label": "Corporate Number",
       "value": "0104-01-156612"
     },
-    "representative": {
-      "label": "Representative",
-      "value": "Jong Yoon Park"
-    },
-    "address": {
-      "label": "Address",
-      "value": "3F, WAW Akasaka Dai-35 Kowa Bldg, 1-14-14 Akasaka, Minato-ku, Tokyo"
-    },
     "capital": {
       "label": "Capital",
       "value": "5,000,000 JPY"
     },
-    "business": {
-      "title": "Business",
-      "services": "Operation of novel & comic content platform 'MOFIC'",
-      "partners": "Content partnerships with domestic and international publishers"
-    },
     "contact": {
       "title": "Contact",
-      "email": "partner@mofic.com",
-      "phone": ""
+      "email": "partner@mofic.com"
     }
   },
   "footer": {

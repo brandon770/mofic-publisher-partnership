@@ -43,40 +43,13 @@ export default function CompanyInfo() {
                   <span className="text-gray-500 font-medium sm:w-40 mb-1 sm:mb-0">{t('corporateNumber.label')}</span>
                   <span className="text-gray-900">{t('corporateNumber.value')}</span>
                 </div>
+
+                <div className="flex flex-col sm:flex-row sm:items-center py-3 border-b border-gray-200">
+                  <span className="text-gray-500 font-medium sm:w-40 mb-1 sm:mb-0">{t('capital.label')}</span>
+                  <span className="text-gray-900">{t('capital.value')}</span>
+                </div>
               </>
             )}
-
-            <div className="flex flex-col sm:flex-row sm:items-center py-3 border-b border-gray-200">
-              <span className="text-gray-500 font-medium sm:w-40 mb-1 sm:mb-0">{t('representative.label')}</span>
-              <span className="text-gray-900">{t('representative.value')}</span>
-            </div>
-
-            <div className="flex flex-col sm:flex-row sm:items-center py-3 border-b border-gray-200">
-              <span className="text-gray-500 font-medium sm:w-40 mb-1 sm:mb-0">{t('address.label')}</span>
-              <span className="text-gray-900">{t('address.value')}</span>
-            </div>
-
-            {showJapanDetails && (
-              <div className="flex flex-col sm:flex-row sm:items-center py-3 border-b border-gray-200">
-                <span className="text-gray-500 font-medium sm:w-40 mb-1 sm:mb-0">{t('capital.label')}</span>
-                <span className="text-gray-900">{t('capital.value')}</span>
-              </div>
-            )}
-          </div>
-
-          {/* Business info */}
-          <div className="mb-8">
-            <h3 className="text-lg font-bold text-gray-900 mb-4">{t('business.title')}</h3>
-            <ul className="space-y-2 text-gray-600">
-              <li className="flex items-start gap-2">
-                <span className="w-1.5 h-1.5 bg-violet-400 rounded-full mt-2 flex-shrink-0"></span>
-                {t('business.services')}
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="w-1.5 h-1.5 bg-violet-400 rounded-full mt-2 flex-shrink-0"></span>
-                {t('business.partners')}
-              </li>
-            </ul>
           </div>
 
           {/* Contact */}

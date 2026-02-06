@@ -29,7 +29,7 @@
     },
     "promotion": {
       "title": "강력한 프로모션",
-      "description": "MOFIC 부담 150크레딧/월. 무료로 제공된 분량도 출판사에 100% 정산합니다."
+      "description": "소설 150화 분량, 만화 단행본 1권 분량을 매월 MOFIC 부담으로 제공. 무료로 제공된 분량도 출판사에 100% 정산합니다."
     },
     "discovery": {
       "title": "공정한 작품 노출",
@@ -57,7 +57,7 @@
     },
     "step2": {
       "title": "MOFIC 부담 크레딧 제공",
-      "description": "독자에게 매월 150크레딧 무료 제공. 무료분도 출판사에 100% 정산"
+      "description": "독자에게 매월 소설 150화분, 만화 단행본 1권분 무료 제공. 무료분도 출판사에 100% 정산"
     },
     "step3": {
       "title": "YouTube형 콘텐츠 경험",
@@ -148,28 +148,14 @@
   },
   "companyInfo": {
     "title": "회사정보",
-    "subtitle": "한국법인 정보",
+    "subtitle": "법인 정보",
     "company": {
       "label": "회사명",
       "value": "주식회사 쿼터풀 (모회사) / 주식회사 QuarterFull Japan (일본법인)"
     },
-    "representative": {
-      "label": "대표자",
-      "value": "박종윤"
-    },
-    "address": {
-      "label": "주소",
-      "value": "서울특별시 강남구 테헤란로 311, 아남타워 6층"
-    },
-    "business": {
-      "title": "사업 내용",
-      "services": "소설·만화 콘텐츠 플랫폼 'MOFIC' 운영",
-      "partners": "국내외 출판사와의 콘텐츠 파트너십"
-    },
     "contact": {
       "title": "연락처",
-      "email": "partner@mofic.com",
-      "phone": ""
+      "email": "partner@mofic.com"
     }
   },
   "footer": {
